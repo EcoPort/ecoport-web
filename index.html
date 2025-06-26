@@ -3,54 +3,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoPort</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: #333;
         }
-        header {
-            text-align: center;
-            padding: 40px 20px 20px 20px;
-            background-image: url('banner.jpg');
-            background-size: cover;
-            background-position: center;
-            color: white;
-        }
-        header img {
-            max-width: 200px;
-            margin-bottom: 20px;
+        .banner {
+            width: 100%;
+            height: auto;
         }
         .content {
-            padding: 20px;
+            padding: 40px;
             text-align: center;
         }
-        .button {
+        .btn {
+            background-color: #0077cc;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
             display: inline-block;
             margin-top: 20px;
-            padding: 12px 25px;
-            background-color: #28a745;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .button:hover {
-            background-color: #218838;
         }
     </style>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="EcoPort Logo">
-        <h1>EcoPort</h1>
-        <p>Leading the way in HDPE plastic recycling and export from Bali</p>
-        <a class="button" href="mailto:leahg.operations@ecoport.co.nz">Contact Us</a>
-    </header>
+    <img src="assets/banner.png" alt="EcoPort Banner" class="banner">
     <div class="content">
-        <h2>Welcome to EcoPort</h2>
-        <p>We're proud to offer efficient, sustainable plastic export solutions. Our mission is to clean Bali while delivering quality recycled materials to the world.</p>
+        <h1>Welcome to EcoPort</h1>
+        <p>Leading the charge in sustainable plastic exports from Bali to the world.</p>
+        <a href="#contact" class="btn">Contact Us</a>
     </div>
 </body>
 </html>
