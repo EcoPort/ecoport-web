@@ -5,8 +5,7 @@ export default function Home() {
   <img
   src="/logo.png"
   alt="EcoPort Logo"
-  style={{ width: "120px", marginBottom: "1rem" }}
-/>
+  style={{ width: "120px", marginBottom: "1rem" }}/>
         <h1 style={{ fontSize: "2.5rem", marginBottom: "0.5rem" }}>EcoPort</h1>
         <p style={{ fontSize: "1.2rem", color: "#2e7d32" }}>
           Bali's Gateway to Global Plastic Recycling
